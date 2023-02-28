@@ -1,0 +1,116 @@
+/* Imports */
+@import url('variables.css');
+
+/* Fonts import */
+@font-face {
+	/* Title font */
+	font-family: '';
+	src: url();
+
+	/* Text font */
+	font-family: '';
+	src: url();
+}
+
+
+/* Remove default style */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html:focus-within {
+	scroll-behavior: smooth;
+}
+
+body {
+	min-height: 100vh;
+	text-rendering: optimizeSpeed; /* Le navigateur privilégie la vitesse de rendu par rapport à la lisibilité et la précision géométrique lors de l'affichage du texte. Cela désactive les ligatures et le crénage.*/
+	line-height: var(--global-line-height);
+	-webkit-font-smoothing: antialiased;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+ul[role='list'],
+ol[role='list'] {
+	list-style: none;
+}
+
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+img, picture, video, canvas, svg {
+	height: auto;
+	max-width: 100%;
+	display: block;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* If the user don't want motion */
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+
+/* Styles classes */
+
+
+
+@media all and (max-width:320px) {
+
+}
+
+@media all and (min-width: 321px) and (max-width: 480px) {
+
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media all and (min-width:769px) and (max-width: 900px) {
+
+}
+
+@media all and (min-width: 901px) and (max-width: 1024) {
+
+}
+
+@media all and (min-width: 1025) and (max-width: 1200px) {
+	
+}

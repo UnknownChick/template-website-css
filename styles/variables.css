@@ -1,0 +1,21 @@
+/* Variables */
+:root {
+	/* colors */
+	--primary-color: ;
+	--secondary-color: ;
+
+	--white-color: #ffffff;
+	--black-color: #000000;
+
+	/* fonts */
+	--title-font: ;
+	--text-font: ;
+
+	/* fonts size */
+	--global-font-size: 16px;
+
+	/* Line height */
+	--global-line-height: 1.5;
+
+
+}
