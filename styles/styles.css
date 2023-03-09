@@ -56,7 +56,11 @@ a {
 	text-decoration: none;
 }
 
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
 	height: auto;
 	max-width: 100%;
 	display: block;
@@ -90,7 +94,7 @@ table {
 /* Styles classes */
 
 
-
+/* Breakpoint */
 @media all and (max-width:320px) {
 
 }
@@ -111,6 +115,32 @@ table {
 
 }
 
-@media all and (min-width: 1025) and (max-width: 1200px) {
+@media all and (min-width: 1025) and (max-width: 1280px) {
 	
+}
+
+
+/* Media queries Level 4 */
+@media (width <= 320px) {
+
+}
+
+@media (320px <= width <= 480px) {
+
+}
+
+@media (480px <= width <= 768px) {
+
+}
+
+@media (768px <= width <= 900px) {
+
+}
+
+@media (900px <= width <= 1024px) {
+
+}
+
+@media (1024px <= width <= 1280px) {
+
 }
