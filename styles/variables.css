@@ -1,7 +1,7 @@
 /* Variables */
 :root {
 	/* colors */
-	--primary-color: ;
+	--primary-color: #ff0000;
 	--secondary-color: ;
 
 	--white-color: #ffffff;
@@ -13,9 +13,10 @@
 
 	/* fonts size */
 	--global-font-size: 16px;
+	--title-font-size: ;
 
 	/* Line height */
 	--global-line-height: 1.5;
 
-
+	--wrapper-width: 80%;
 }
