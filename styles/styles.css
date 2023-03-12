@@ -25,9 +25,14 @@ html:focus-within {
 
 body {
 	min-height: 100vh;
+	overflow-x: hidden;
 	text-rendering: optimizeSpeed; /* Le navigateur privilégie la vitesse de rendu par rapport à la lisibilité et la précision géométrique lors de l'affichage du texte. Cela désactive les ligatures et le crénage.*/
 	line-height: var(--global-line-height);
 	-webkit-font-smoothing: antialiased;
+}
+
+main {
+	display: block;
 }
 
 p,
@@ -51,6 +56,12 @@ a:not([class]) {
 
 a {
 	text-decoration: none;
+	background-color: transparent;
+}
+
+b,
+strong {
+  font-weight: bolder;
 }
 
 img,
@@ -66,13 +77,28 @@ svg {
 input,
 button,
 textarea,
-select {
+select,
+optgroup {
 	font: inherit;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: button;
 }
 
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+code,
+kbd,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
 }
 
 /* If the user don't want motion */
