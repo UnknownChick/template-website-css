@@ -10,7 +10,7 @@
 }
 
 
-/* Remove default style */
+/* Reset CSS */
 *,
 *::before,
 *::after {
@@ -61,7 +61,7 @@ a {
 
 b,
 strong {
-  font-weight: bolder;
+	font-weight: bolder;
 }
 
 img,
@@ -86,7 +86,8 @@ button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
-  -webkit-appearance: button;
+	-webkit-appearance: button;
+	appearance: button;
 }
 
 table {
